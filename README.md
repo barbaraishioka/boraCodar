@@ -29,14 +29,64 @@ Projetos feitos no evento #boraCodar da [Rocketseat](https://www.rocketseat.com.
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Javascript
 - Git e Github
 - Figma
+
+<br>
 
 ## 💻 Projeto
 
 Projetos feitos no evento #boraCodar da [Rocketseat](https://www.rocketseat.com.br/).
 
-- [Todos os projetos](https://barbaraishioka.github.io/boraCodar/)
+[Clique aqui e acesse a página com todos os projetos 🔗](https://barbaraishioka.github.io/boraCodar/)
+
+Ou se preferir, abaixo segue uma tabela com os links do README e DEMO de cada projeto.
+
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">
+                <img width="20" height="1"> 
+                <p>
+                    <small>#</small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="300" height="1"> 
+                <p> 
+                    <small>
+                        README
+                    </small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="201" height="1">
+                <p align="center"> 
+                    <small>
+                    DEMO
+                    </small>
+                </p>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td><a href="https://github.com/barbaraishioka/boraCodar/blob/main/desafio01/README.md">Music Player </a></td>
+            <td align="center">
+            <a href="https://barbaraishioka.github.io/boraCodar/desafio01/"><img width="300px" src="https://github.com/maykbrito/boracodar/raw/main/01/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td><a href="#">Product Card</a></td>
+            <td align="center"><a href="#"><img width="300px" src="https://github.com/maykbrito/boracodar/raw/main/02/.github/preview.jpg" /></a></td>
+        </tr>
+    </tbody>
+</table></p>
+
+#
 
 ## :memo: Licença
 
