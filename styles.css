@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #141316;
+  --secondary-color: #8257e6;
+  --border-color: #292630;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+#container {
+  width: 100%;
+  max-width: 1024px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  gap: 20px;
+  padding-inline: 12px;
+  padding-block: 60px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+p.small {
+  font-size: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-content {
+  border: 1px solid var(--border-color);
+  padding: 10px 10px 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-content:hover > .card img {
+  opacity: 0.3;
+}
+
+.card-content:hover > .card div {
+  visibility: visible;
+}
+
+.card img {
+  width: 280px;
+  height: 116px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.card .projects-links {
+  position: absolute;
+  visibility: hidden;
+}
+
+.card .projects-links a {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.card .projects-links a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.card-text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-text span {
+  font-size: 0.8rem;
+  border: 1px solid var(--border-color);
+  padding: 4px 8px;
+  border-radius: 16px;
+}
+
+.empty {
+  width: 302px;
+  height: 208.078px;
+  border: 1px solid var(--border-color);
+}
+
+footer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  p.small {
+    font-size: 0.86rem;
+  }
+}
