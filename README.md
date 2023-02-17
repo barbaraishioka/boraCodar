@@ -9,7 +9,6 @@ Projetos feitos no evento #boraCodar da [Rocketseat](https://www.rocketseat.com.
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -20,7 +19,7 @@ Projetos feitos no evento #boraCodar da [Rocketseat](https://www.rocketseat.com.
 <br>
 
 <p align="center">
-  <img src="#" width="100%">
+  <img src="https://user-images.githubusercontent.com/32278696/215504217-fc41342d-7320-401a-b5c9-aa4df225c08b.png" width="100%">
 </p>
 
 </br>
